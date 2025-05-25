@@ -11,7 +11,7 @@ const cors = require('cors');
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 app.use(cors({
-    origin: 'http://localhost:5173', // Front-end URL
+    origin: 'https://user-validate-ui.onrender.com', // Front-end URL
     credentials: true, // Allow sending cookies
 }));
 // app.use(cors());
